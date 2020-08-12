@@ -7,8 +7,10 @@ import SideNavigation from './Components/Pages/SideNavigation/SideNavigation'
 const App = () => (
     <Container>
       <Row>
-        <Col sm={4}>
-          <Button>Click Here!</Button>
+        <Col sm={4} >
+          <aside className="sideNavigation">
+          <SideNavigation />
+          </aside>
         </Col>
         <Col sm={8}>
           <button>Click Here!</button>
